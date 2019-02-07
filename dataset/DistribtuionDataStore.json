@@ -1,7 +1,7 @@
 {
 	"name": "DistribtuionDataStore",
 	"properties": {
-		"description": "Data Store Raw",
+		"description": "Data Store For distribution",
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorageGen2",
 			"type": "LinkedServiceReference"
