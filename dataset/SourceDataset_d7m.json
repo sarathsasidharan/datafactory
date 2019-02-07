@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_d7m",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DistributionDb",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"tableName": "[SalesLT].[Customer]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

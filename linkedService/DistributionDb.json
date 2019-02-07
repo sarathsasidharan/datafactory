@@ -1,0 +1,11 @@
+{
+	"name": "DistributionDb",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=distributionserver.database.windows.net;initial catalog=distributiondb;user id=sasasid",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRJU1RSSUJVVElPTl8wMTM2OTBiNy01NjZmLTRlN2MtOWUwYi01ZDRlYmZhNzAzM2UiDQp9"
+		}
+	}
+}
